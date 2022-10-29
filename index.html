@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" 
+    integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" 
+    crossorigin="anonymous">
+
+    <link href="https://fonts.googleapis.com/css?family=Poppins:200i,300,400&amp;display=swap" 
+    rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Raleway:700&amp;display=swap" rel="stylesheet">
+    <title>Roman Calculator</title>
+</head>
+<body>
+    <main>
+        <div class="table">
+        <table>
+            <tr>
+                <td>Roman Number</td>
+                <td>English Number</td>
+            </tr>
+            <tr>
+                <td>M</td>
+                <td><code>1000</code></td>
+            </tr>
+            <tr>
+                <td>CM</td>
+                <td><code>900</code></td>
+            </tr>
+            <tr>
+                <td>D</td>
+                <td><code>500</code></td>
+            </tr>
+            <tr>
+                <td>C</td>
+                <td><code>100</code></td>
+            </tr>
+            <tr>
+                <td>XC</td>
+                <td><code>90</code></td>
+            </tr>
+            <tr>
+                <td>L</td>
+                <td><code>50</code></td>
+            </tr>
+            <tr>
+                <td>XL</td>
+                <td><code>40</code></td>
+            </tr>
+            <tr>
+                <td>X</td>
+                <td><code>10</code></td>
+            </tr>
+            <tr>
+                <td>IX</td>
+                <td><code>9</code></td>
+            </tr>
+            <tr>
+                <td>V</td>
+                <td><code>5</code></td>
+            </tr>
+            <tr>
+                <td>IV</td>
+                <td><code>4</code></td>
+            </tr>
+            <tr>
+                <td>I</td>
+                <td><code>1</code></td>
+            </tr>
+        </table>
+        </div>
+        <div class="buttonSecton">
+            <div class="SectionTitle">
+                <h3>Select one of a buttons</h3>
+                <div class="Divider"></div>
+                <p>Note: <code>Select a Button acording to your need</code></p>
+            </div>
+            <div class="buttons" id="buttons">
+            <button id="plusButton" type="submit" onclick="" value="+">+</button>
+            <button id="minusButton" type="submit" onclick="" value="-">-</button>
+            <button id="multiplayButton"  type="submit" onclick="" value="*">X</button>
+            <button id="devisionButton" type="submit" onclick="" value="/">/</button>
+            <button id="persentButton" type="submit" onclick="" value="%">%</button>
+            </div>
+            <div class="plus" id="plus">
+                <div class="fields">
+                  <input type="number" placeholder="number" min="0">
+                  <p>+</p>
+                  <input type="number" placeholder="number" min="0">
+                </div>
+                <button type="submit" onclick="" value="Submit">Submit</button>
+                <div class="result">
+
+                </div>
+                <button id="plusBack" type="submit" onclick="" value="Submit"> < Back </button>
+            </div>
+            <div class="minus" id="minus">
+                <div class="fields">
+                  <input type="number" placeholder="number" min="0">
+                  <p>-</p>
+                  <input type="number" placeholder="number" min="0">
+                </div>
+                <button type="submit" onclick="" value="Submit">Submit</button>
+                <div class="result">
+                    
+                </div>
+                <button id="minusBack" type="submit" onclick="" value="Submit"> < Back </button>
+            </div>
+            <div class="milti" id="milti">
+                <div class="fields">
+                  <input type="number" placeholder="number" min="0">
+                  <p>X</p>
+                  <input type="number" placeholder="number" min="0">
+                </div>
+                <button type="submit" onclick="" value="Submit">Submit</button>
+                <div class="result">
+                    
+                </div>
+                <button id="miltiBack" type="submit" onclick="" value="Submit"> < Back </button>
+            </div>
+            <div class="division" id="division">
+                <div class="fields">
+                  <input type="number" placeholder="number" min="0">
+                  <p>/</p>
+                  <input type="number" placeholder="number" min="0">
+                </div>
+                <button type="submit" onclick="" value="Submit">Submit</button>
+                <div class="result">
+                    
+                </div>
+                <button id="divisionBack" type="submit" onclick="" value="Submit"> < Back </button>
+            </div>
+            <div class="percent" id="percent">
+                <div class="fields">
+                  <input type="number" placeholder="number" min="0">
+                  <p>%</p>
+                  <input type="number" placeholder="number" min="0">
+                </div>
+                <button  type="submit" onclick="" value="Submit">Submit</button>
+                <div class="result">
+                    
+                </div>
+                <button id="percentBack" type="submit" onclick="" value="Submit"> < Back </button>
+            </div>
+            <footer>
+                <h3>Designed and Developed by 
+                    <a href="https://jubayerrahman.github.io/JubayerCompletePortfolio/" target="_blank"> 
+                        Jobayer Rahman </a></h3>
+            </footer>
+        </div>
+        
+    </main>
+    <!-- Js linking -->
+    <script src="./function.js"></script>
+</body>
+</html>
