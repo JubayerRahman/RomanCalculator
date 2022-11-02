@@ -71,6 +71,7 @@ document.getElementById("plusSubmit").addEventListener("click", function(){
     num1 = parseFloat(num1);
     num2 = parseFloat(num2);
     if(num1<=0 || num2<=0){
+        document.getElementById("plusSubmit").style.display="none";
         return alert("Enter Valid numbers")
     }
     else{
@@ -233,6 +234,7 @@ document.getElementById("miltiSubmit").addEventListener("click", function(){
     num1 = parseFloat(num1);
     num2 = parseFloat(num2);
     if(num1<=0 && num2 <= 0){
+        document.getElementById("miltiSubmit").style.display="none";
         return alert("Enter Valid numbers")
     }
     else{
@@ -314,6 +316,7 @@ document.getElementById("divisionSubmit").addEventListener("click", function(){
     num1 = parseFloat(num1);
     num2 = parseFloat(num2);
     if(num1<=0 ||num2<=0){
+        document.getElementById("divisionSubmit").style.display="none";
         return alert("Enter Valid numbers")
     }
     else{
@@ -395,6 +398,7 @@ document.getElementById("percentSubmit").addEventListener("click", function(){
     num1 = parseFloat(num1);
     num2 = parseFloat(num2);
     if(num1<=0 && num1 < num2 ){
+        document.getElementById("percentSubmit").style.display="none";
         return alert("Enter Valid numbers")
     }
     else{
