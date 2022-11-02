@@ -313,7 +313,7 @@ document.getElementById("divisionSubmit").addEventListener("click", function(){
     let num2 = document.getElementById("divisionNum2").value;
     num1 = parseFloat(num1);
     num2 = parseFloat(num2);
-    if(num1<=0 ){
+    if(num1<=0 ||num2<=0){
         return alert("Enter Valid numbers")
     }
     else{
